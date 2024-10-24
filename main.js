@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import './styles/styles.css';
 
 //Sizes
 const sizes = {
