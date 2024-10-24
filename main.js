@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import earthTexture from './textures/earth.jpg';
 
 //Sizes
 const sizes = {
@@ -21,7 +22,7 @@ renderer.setAnimationLoop(animate);
 document.body.appendChild(renderer.domElement);
 
 //Texture
-const texture = new THREE.TextureLoader().load('textures/earth.jpg' ); 
+const texture = new THREE.TextureLoader().load(earthTexture); 
 
 //Sphere
 const geometry = new THREE.SphereGeometry(3, 64, 64);
