@@ -1,6 +1,5 @@
 import * as THREE from 'three';
 import './styles/styles.css';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 //Sizes
 const sizes = {
