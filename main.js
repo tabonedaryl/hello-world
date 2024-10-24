@@ -72,7 +72,7 @@ window.addEventListener("resize", () => {
 })
 
 const axis = new THREE.Vector3(-1, 1, 0).normalize(); // Diagonal axis (normalized)
-const angle = 0.01; // Rotation speed
+const angle = 0.005; // Rotation speed
 
 function animate() {
     // Create a quaternion that represents a rotation around the diagonal axis
